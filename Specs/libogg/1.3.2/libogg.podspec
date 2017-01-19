@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
 
   # go modular
   s.ios.deployment_target = "8.0"
+  s.tvos.deployment_target = "9.0"
 
   s.description  = <<-DESC
                    Xiph's C-based Ogg media stream demuxer/muxer library, packaged for iOS.
@@ -24,8 +25,6 @@ Pod::Spec.new do |s|
 
   s.author             = { "Brion Vibber (packager)" => "brion@pobox.com" }
   s.social_media_url   = "https://planet.xiph.org/"
-
-  s.platform     = :ios, "6.0"
 
   s.source       = { :http => source,
                      :sha1 => sha1 }

@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.author             = { "Brion Vibber (packager)" => "brion@pobox.com" }
   s.social_media_url   = "https://planet.xiph.org/"
 
-  s.platform     = :ios, "6.0"
+  s.platforms     = {:ios => "8.0", :tvos => "9.0"}
 
   s.source       = { :http => source,
                      :sha1 => sha1 }
